@@ -1,11 +1,5 @@
 # 🎯 CS2 Aim Training
 
-[🇺🇸 English](#english) | [🇹🇷 Türkçe](#türkçe)
-
----
-
-## English
-
 Modern and advanced Counter-Strike 2 aim training application. Improve your aim with real CS2 sensitivity settings, track your performance, and break your records!
 
 ### ✨ Features
