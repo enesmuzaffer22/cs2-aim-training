@@ -1,0 +1,20 @@
+🎯 CS2 Sensitivity Bazlı Web Aim Trainer Teknik Dökümantasyonu
+
+📌 Amaç
+Bu dökümanın amacı, Counter-Strike 2 (CS2) oyunundaki mouse sensitivity (hassasiyet) değerinin bir web tarayıcısında aynı hisle kullanılmasını sağlamaktır. Web uygulaması içinde, oyuncunun tarayıcıda da aynı doğrulukta nişan alabilmesi hedeflenmektedir.
+
+🔧 Kullanılan Terimler
+Terim	Açıklama
+Sensitivity	Oyundaki mouse hassasiyet değeri
+DPI	Mouse’un fiziksel çözünürlüğü (dots per inch)
+Yaw	Source engine'de dönüş oranı (sabit: 0.022)
+Pointer Lock	Tarayıcıda mouse imlecini gizleyip FPS deneyimi sağlar
+movementX/Y	Her mousemove olayında imlecin önceki konuma göre farkı
+
+📐 CS2 Dönüş Formülü
+CS2’de oyuncunun ekrandaki görüş açısı dönüşü şu şekilde hesaplanır:
+Dönüş Açısı (derece) = Mouse Hareketi * Sensitivity * Yaw
+
+Yaw değeri CS2 (Source 2 engine) için 0.022 olarak sabittir.
+
+Fare hareketi genellikle piksel cinsindendir (movementX, movementY ile okunur).
